@@ -55,11 +55,9 @@ The dataset is publicly available on Roboflow and Kaggle:
 ## 📁 File Descriptions
 
 - **`models/`**: Contains the best-performing fine-tuned YOLOv8 model in both `.pt` (PyTorch format) and `.onnx` (Open Neural Network Exchange format) for broad compatibility.
-- **`LICENSE`**: The legal framework defining the terms under which this project's code and dataset can be used.
 - **`README.md`**: The document you are reading that offers an insightful overview and essential information about the project.
 - **`real_time_traffic_analysis.py`**: The Python script for deploying the YOLOv8 model to estimate traffic density in real-time on a local system.
 - **`real-time_traffic_density_estimation_yolov8.ipynb`**: The Jupyter notebook that documents the model development pipeline, from data preparation to model evaluation and inference.
-- **`Running_Real-Time_Traffic_Analysis.gif`**: A GIF demonstration showing the real-time traffic analysis capability of our model when the `real_time_traffic_analysis.py` script is executed.
 - **`sample_video.mp4`**: The video file used for testing the traffic estimation algorithm and the deployment code in `real_time_traffic_analysis.py`.
 
 
@@ -70,7 +68,7 @@ To experience the full capabilities of the YOLOv8 Traffic Density Estimation pro
 ### 1️⃣. Initial Setup
 1. **Clone the Repository**: Start by cloning the project repository to your local system using the command below:
     ```bash
-   
+   gh repo clone Sukhman123preet/Traffic-density-analysis
     ```
 2. **Navigate to the Project Directory**: After cloning, change into the project directory with:
     ```bash
@@ -89,7 +87,6 @@ Get hands-on with the model development process and see the results of traffic d
 Witness the real-time traffic analysis capability of our YOLOv8 model:
 1. **Install Ultralytics YOLO**: Ensure you have the `ultralytics` package installed by running:
     ```bash
-    gh repo clone Sukhman123preet/Traffic-density-analysis
     pip install ultralytics
     ```
 2. **Run the Analysis Script**: Execute the script to start the real-time traffic density estimation:
