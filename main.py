@@ -6,7 +6,6 @@ from analytics import display_analytics
 def main():
     try:
         setup_ui()  # Set up UI
-
         uploaded_file = st.file_uploader("Choose a video file", type=['mp4', 'avi'])
         
         if uploaded_file is not None:
