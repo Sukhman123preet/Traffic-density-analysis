@@ -39,8 +39,8 @@ def setup_ui():
     
     /* Header Styling */
     .main-header {
-        padding-top: 20px;
-        font-size: 2.5rem;
+        padding-top: 15px;
+        font-size: 2rem;
         color: var(--primary-color);
         text-align: center;
         margin-bottom: 0.5rem;
@@ -48,20 +48,20 @@ def setup_ui():
     }
     
     .subheader {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: var(--text-secondary);
         text-align: center;
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.7rem;
     }
     
     /* Project Info Section */
     .project-info {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         background-color: var(--surface-color);
-        padding: 0.5rem;
+        padding: 0.4rem;
         border-radius: 10px;
         border: 1px solid var(--hover-color);
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.7rem;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
         transition: transform 0.2s, box-shadow 0.2s;
     }
@@ -85,12 +85,12 @@ def setup_ui():
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 1.5rem;
-        margin-top: 0.75rem;
+        margin-top: 0.70rem;
     }
     
     .info-card {
         background: var(--surface-color);
-        padding: 1rem;
+        padding: 0.8rem;
         border-radius: 8px;
         border: 1px solid var(--hover-color);
         transition: transform 0.2s, box-shadow 0.2s;
