@@ -22,19 +22,6 @@ The **Traffic-Density Analysis System** leverages the power of advanced YOLOv8 t
 
 ---
 
-## **🚀 Deployment**  
-Check out the live deployment here:  
-🌐 [Traffic-Density Analysis System](https://traffic-density-analysis.onrender.com/)
-
----
-
-## **📂 Project Structure**  
-- **Model Training:** YOLOv8-based object detection for vehicle recognition.  
-- **Real-Time Analysis:** Dynamic visualization and lane-specific vehicle counting.  
-- **Web Deployment:** Hosted with a user-friendly interface for easy access.  
-
----
-
 ## **🔗 Links**  
 - **GitHub Repository:** [Traffic-Density Analysis System](https://github.com/Sukhman123preet/Traffic-density-analysis)  
 - **Live Deployment:** [Traffic-Density Analysis System Live](https://traffic-density-analysis.onrender.com/)
