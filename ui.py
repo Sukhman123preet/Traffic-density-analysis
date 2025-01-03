@@ -165,9 +165,7 @@ def setup_ui():
         st.markdown("""
         <div class="project-info">
             <h3>About This Project</h3>
-            <p>Traffic-Density Analysis System leverages advanced YOLOv8 technology to provide real-time vehicle detection 
-            and traffic pattern analysis. The system monitors two lanes simultaneously, delivering instant insights 
-            about traffic density and flow patterns.</p>
+            <p>The Traffic-Density Analysis System leverages the power of advanced YOLOv8 technology  to provide real-time vehicle detection and comprehensive traffic pattern analysis. This project uses a model trained on a custom dataset to ensure high accuracy and adaptability to various traffic scenarios. Designed to monitor two lanes simultaneously, the system delivers instant insights into traffic density and flow patterns, facilitating smarter traffic management solutions.</p>
         </div>
         """, unsafe_allow_html=True)
     
